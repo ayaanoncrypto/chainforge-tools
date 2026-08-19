@@ -6,3 +6,10 @@
 - [x] Add a persistent desktop-only notice and disable the mobile workspace.
 - [x] Add Vercel deployment configuration and clear local deployment notes.
 - [x] Complete catalog-wide verification and save the final build.
+- [ ] Open Vercel and wait for the user to complete sign-in.
+- [ ] Guide the Vercel repository import and verify the detected static build configuration.
+- [ ] Open GitHub and wait for user authentication.
+- [ ] Create the ChainForge repository and push the completed project.
+- [ ] Confirm GitHub command-line publishing access.
+- [ ] Create and push the public `chainforge-tools` showcase repository.
+- [ ] Create and push the private `chainforge-tools-deploy` Vercel repository.

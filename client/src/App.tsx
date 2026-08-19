@@ -6,6 +6,9 @@ import ErrorBoundary from "./components/ErrorBoundary";
 import { ThemeProvider } from "./contexts/ThemeContext";
 import Home from "./pages/Home";
 
+/**
+ * Protocol Ledger design system: dark editorial workspace with cobalt analysis states and Forge Lime actions.
+ */
 
 function Router() {
   return (
@@ -27,7 +30,7 @@ function App() {
   return (
     <ErrorBoundary>
       <ThemeProvider
-        defaultTheme="light"
+        defaultTheme="dark"
         // switchable
       >
         <TooltipProvider>

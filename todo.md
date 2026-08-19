@@ -1,3 +1,8 @@
 - [x] Remove the forced top-of-page scroll from tool selection.
 - [x] Verify catalog, featured, and primary action buttons update the tool bench in place.
-- [ ] Save a checked interaction-fix checkpoint.
+- [x] Save a checked interaction-fix checkpoint.
+- [x] Define executable local behavior for every indexed tool.
+- [x] Replace staged tool placeholders with usable input, calculation, formatting, or generation flows.
+- [x] Add a persistent desktop-only notice and disable the mobile workspace.
+- [x] Add Vercel deployment configuration and clear local deployment notes.
+- [x] Complete catalog-wide verification and save the final build.

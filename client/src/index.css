@@ -107,11 +107,23 @@
   .forge-panel::before { content: ""; position: absolute; top: -1px; left: 18px; width: 40px; height: 2px; background: #b8ff3d; }
   .forge-panel::after { content: "[/]"; position: absolute; top: 16px; right: 18px; color: rgb(184 255 61 / 0.32); font-family: "DM Mono", monospace; font-size: 9px; letter-spacing: 0.13em; pointer-events: none; }
 
+  .bench-rail {
+    position: relative;
+    background-image: linear-gradient(135deg, transparent 0 46%, rgb(118 151 246 / 0.08) 46.2% 46.6%, transparent 46.8% 100%), linear-gradient(45deg, transparent 0 48%, rgb(184 255 61 / 0.04) 48.2% 48.6%, transparent 48.8% 100%);
+    background-size: 88px 88px, 144px 144px;
+  }
+  .bench-rail::before { content: "[ / ]\A 72 / LOCAL\A ON-CHAIN\A WALLET\A TRADING\A DEFI\A DEVELOPER\A SECURITY\A MONEY"; white-space: pre; position: absolute; inset: 32rem 18px auto; color: rgb(150 177 250 / 0.28); font-family: "DM Mono", monospace; font-size: 9px; line-height: 3.1; letter-spacing: 0.14em; }
+  .bench-rail::after { content: "CHAINFORGE / TOOLBENCH / INDEX"; position: absolute; right: -2.5rem; top: 50rem; transform: rotate(90deg); transform-origin: center; color: rgb(184 255 61 / 0.3); font-family: "DM Mono", monospace; font-size: 8px; letter-spacing: 0.19em; }
+
+  .forge-wordmark { font-family: "Space Grotesk", sans-serif; font-weight: 700; letter-spacing: -0.08em; }
+  .forge-wordmark .forge-f { position: relative; display: inline-block; color: #b8ff3d; }
+  .forge-wordmark .forge-f::after { content: ""; position: absolute; left: 0.07em; top: 0.45em; width: 0.8em; height: 1px; background: currentColor; transform: rotate(-28deg); transform-origin: left; box-shadow: 0 0 10px rgb(184 255 61 / 0.55); }
+
   .tool-row { transition: transform 180ms cubic-bezier(0.23, 1, 0.32, 1), background-color 180ms cubic-bezier(0.23, 1, 0.32, 1), border-color 180ms cubic-bezier(0.23, 1, 0.32, 1); }
   .tool-row:hover { transform: translateX(3px); background-color: rgb(100 134 230 / 0.11); border-color: rgb(145 176 255 / 0.38); }
   .tool-row:active, .forge-button:active { transform: scale(0.97); }
 
-  .ledger-row { position: relative; margin-top: 2.65rem; }
+  .ledger-row { position: relative; margin-top: 2.65rem; border-left-color: rgb(184 255 61 / 0.56) !important; border-left-width: 2px !important; }
   .ledger-row::before { content: attr(data-ledger); position: absolute; left: 0; right: 0; top: -2.1rem; height: 1.55rem; border-bottom: 1px solid rgb(108 137 202 / 0.35); color: rgb(183 201 255 / 0.75); font-family: "DM Mono", monospace; font-size: 9px; line-height: 1.2rem; letter-spacing: 0.16em; text-transform: uppercase; }
   .ledger-row::after { content: "[ / ]"; position: absolute; right: 0; top: -1.95rem; color: rgb(184 255 61 / 0.6); font-family: "DM Mono", monospace; font-size: 9px; letter-spacing: 0.13em; }
 

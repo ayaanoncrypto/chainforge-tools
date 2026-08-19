@@ -77,3 +77,5 @@ Forge Lime, **#B8FF3D**.
 - Hero and preview imagery use cobalt chain-link schematics, ledger artifacts, or material tool surfaces. They never use generic glowing blockchain-network scenes.
 - The slanted chain-link bracket mark appears in the logo system, indexed dividers, and tool-bench framing as the recurring ChainForge motif.
 - Long catalog views use numbered editorial rule headers by category so the directory reads like a field manual.
+- The right bench rail carries persistent category telemetry and a low-contrast bracket schematic across long catalog views. It never reads as an empty decorative gutter.
+- The wordmark uses a compact geometric ChainF/orge lockup with a visible diagonal slash through the F. This lockup remains distinct from small system labels.

@@ -15,4 +15,6 @@
 - [x] Create and push the private `chainforge-tools-deploy` Vercel repository.
 - [x] Identify why ChainForge generated imagery fails on Vercel.
 - [x] Replace production-broken logo and atlas asset references.
-- [ ] Push the asset repair to the private Vercel deployment source and verify production output.
+- [x] Push the asset repair to the private Vercel deployment source and verify production output.
+- [ ] Add the Ayaan.lol footer credit and ChainForge favicon.
+- [ ] Verify the branding update and push it to Vercel.

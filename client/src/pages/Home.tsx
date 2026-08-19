@@ -304,7 +304,6 @@ export default function Home() {
 
   const chooseTool = (tool: Tool) => {
     setSelectedTool(tool);
-    window.scrollTo({ top: 0, behavior: "smooth" });
   };
 
   return <div className="min-h-screen bg-[#11162a] text-slate-100">

@@ -1,0 +1,3 @@
+- [x] Remove the forced top-of-page scroll from tool selection.
+- [x] Verify catalog, featured, and primary action buttons update the tool bench in place.
+- [ ] Save a checked interaction-fix checkpoint.
